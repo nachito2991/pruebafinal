@@ -1,0 +1,27 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+a{ text-decoration: none;
+    color: black;}
+    $colorpricipal:#59c1b1;
+    
+    body {
+     background-color:  gradient(circle at 49.36% 42.67%, #ffffff 0, #f8f8fa 50%, #adab8a 100%);
+    }
+    
+
+
+    @import"_variables";
+    @import"_navbar";
+    @import"_ventaMayorista";
+    @import "_footer";
+    @import"_principal";
+    @import "_motivosveggo";
+    @import "_formulario";
+
+
