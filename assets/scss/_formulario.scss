@@ -1,14 +1,12 @@
 
-.mas-informacion {
-  height: 150px;
-  text-align: center;
-  margin-top: 200px;
+
   h2{
     font-size: 25px;
   }
-  }
+  
 
   .formulario-padre{
+    margin-top: 260px;
     margin-left: 15px;
     height: 950px;
     width: 400px;
@@ -53,6 +51,7 @@
 
 @media (min-width: 768px) {
 .formulario-padre{
+  margin-top: 200px;
   margin-left: 35px;
   height: 1250px;
   width: 690px;
@@ -89,6 +88,7 @@ text-align: center;
 
 @media (min-width: 1024px) {
   .formulario-padre{
+    margin-top: -300px;
     display: flex;
     margin-left: 75px;
     height: 750px;
@@ -122,3 +122,4 @@ text-align: center;
   font-size: 500px;
   }
   }
+  
